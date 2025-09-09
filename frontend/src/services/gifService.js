@@ -1,6 +1,6 @@
 // Giphy API configuration
-const GIPHY_API_KEY = '0832SgPU9zgdekPuj7PQyqWFx1uAfVUf';
-const GIPHY_BASE_URL = 'https://api.giphy.com/v1/gifs';
+const GIPHY_API_KEY = import.meta.env.VITE_GIPHY_API_KEY;
+const GIPHY_BASE_URL = import.meta.env.VITE_GIPHY_BASE_URL;
 
 // Generate a session ID for tracking user searches
 const generateSessionId = () => {
