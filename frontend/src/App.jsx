@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import GifGrid from './components/GifGrid';
 import { ThemeProvider } from './contexts/ThemeContext';
