@@ -19,7 +19,7 @@ yarn install
 yarn dev
 ```
 
-- App runs at `https://gifly-nine.vercel.app/` (configured in `vite.config.js`).
+- App runs at `https://locslhost-4173/` (configured in `vite.config.js`).
 - Hot Module Replacement is enabled.
 
 ## Build
